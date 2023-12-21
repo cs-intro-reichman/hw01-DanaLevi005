@@ -9,8 +9,6 @@ public class Triangle {
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
         boolean is_triangle = ((a + b) > c && (a + c) > b && (b + c) > a);
-        System.out.println(a + ", " + b + ", " + c + ": " + is_triangle);
-        
-        
+        System.out.println(a + ", " + b + ", " + c + ": " + is_triangle); 
     }
 }
