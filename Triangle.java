@@ -5,9 +5,9 @@
  */ 
 public class Triangle {
     public static void main(String[] args) {
-        int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
-        int c = Integer.parseInt(args[2]);
+        int a = Integer.parseInt(args[0]); // side 1
+        int b = Integer.parseInt(args[1]); // side 2
+        int c = Integer.parseInt(args[2]); // side 3
         boolean is_triangle = ((a + b) > c && (a + c) > b && (b + c) > a);
         System.out.println(a + ", " + b + ", " + c + ": " + is_triangle); 
     }
